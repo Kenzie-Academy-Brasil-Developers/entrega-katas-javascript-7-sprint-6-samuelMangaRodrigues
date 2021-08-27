@@ -156,7 +156,6 @@ const newConcat = (arr, arr2, ...arr3) => {
     }
     return result
 }
-console.log(newConcat([1,3,4,5],[1,2,3,4,5,6,7],1))
 
 //includes()-----↓
 
@@ -214,8 +213,6 @@ return execut
 
 const somarArrays=(acumulador,ValAtu)=>acumulador+=ValAtu
 
-
-console.log(newReduce([1,2,3,4],somarArrays))
 
 
 
